@@ -4,6 +4,7 @@ import CenterFlexBox from "./components/CenterFlexBox";
 import React from "react";
 import {BrowserRouter, Route} from "react-router-dom";
 import Registration from "./pages/Registration";
+import Profile from "./pages/Profile";
 
 function App() {
 
@@ -15,6 +16,9 @@ function App() {
                 </Route>
                 <Route path={"/registration"}>
                     <Registration/>
+                </Route>
+                <Route path={"/profile"}>
+                    <Profile/>
                 </Route>
             </CenterFlexBox>
         </BrowserRouter>

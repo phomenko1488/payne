@@ -50,6 +50,7 @@ function SubmitInput(props) {
 }
 
 const inputLabelStyle = {
+    fontSize: "large",
     textAlign: "center",
     color: "#000000"
 }
@@ -63,7 +64,9 @@ const RememberMeTextStyle = {
     color: "#0b49e2",
     cursor: "pointer"
 };
+
 const submitInputStyle = {
+    fontSize:"x-large",
     borderWidth: "0.5em",
     padding: "1px 2px",
     border: "1px solid",

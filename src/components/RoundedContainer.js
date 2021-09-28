@@ -11,8 +11,9 @@ const Container = styled.div`
     border-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
     border-image-width: 2em;
   }
+
   & div:not(:first-child) {
-    padding: 0.3em 0;
+    padding-bottom: 0.3em;
   }
 ;
 `
